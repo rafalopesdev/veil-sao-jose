@@ -24,6 +24,8 @@ h3 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  color: #8c8c8c;
+  font-size: 1rem;
 }
 .ctn-global {
   width: 100%;
@@ -75,17 +77,19 @@ p {
   }
   .menu-mobile.ativo {
     width: 100%;
-    background: #9d7d5a;
+    background: #f1f1f1;
     left: 0;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 20px 0;
     position: absolute;
+    top: 98px;
+    z-index: 20;
     animation: show-down 0.5s forwards;
   }
   .menu-mobile li a {
-    color: #fff;
+    color: #9d7d5a;
   }
 
   @keyframes show-down {
@@ -98,7 +102,6 @@ p {
       opacity: 1;
     }
   }
-
   .btn-menu i {
     display: block;
   }
@@ -120,41 +123,18 @@ p {
   position: absolute;
   z-index: -10;
 }
-.nav {
-  width: 100%;
-}
 .nav > img {
   width: 200px;
-}
-
-.contact {
-  background: #9d7d5a;
-}
-.ctn-text {
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.ctn-text h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  color: #9d7d5a;
-  text-align: right;
 }
 
 .second-title {
   font-size: 2rem;
   color: #9d7d5a;
 }
-.ctn-left p {
-  color: #7b7c7f;
-  margin-top: 20px;
-}
+
 .fontMontserrat li,
 span {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
 }
 .ctn-slide {
   width: 100%;
